@@ -1,0 +1,24 @@
+{
+  "name": "french-quizlet",
+  "version": "1.0.0",
+  "description": "Package to convert Kerboodle vocabulary to a quizlet compatible format",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "run": "ts-node"
+  },
+  "author": "NicholasG04",
+  "license": "MIT",
+  "dependencies": {
+    "dom-parser": "^0.1.6",
+    "mammoth": "^1.4.13"
+  },
+  "devDependencies": {
+    "@types/node": "^14.11.8",
+    "ts-node": "^9.0.0",
+    "ts-node-dev": "^1.0.0-pre.65",
+    "typescript": "^4.0.3"
+  }
+}
